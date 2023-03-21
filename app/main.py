@@ -3,6 +3,8 @@ from pydantic import BaseModel
 from pycaret import classification
 import numpy as np 
 import pandas as pd 
+import uvicorn
+import os 
 
 app = FastAPI() 
 
@@ -107,3 +109,8 @@ async def covid(item: ParamsModelObito):
 
     results = {"obito": str(y_pred[0])}
     return results
+
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))  
