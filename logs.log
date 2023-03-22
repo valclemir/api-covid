@@ -4,3 +4,7 @@
 2023-03-21 21:03:44,675:INFO:load_model(model_name=model/model-covid-uti, platform=None, authentication=None, verbose=True)
 2023-03-21 21:04:36,676:INFO:Initializing load_model()
 2023-03-21 21:04:36,677:INFO:load_model(model_name=model/model-covid-uti, platform=None, authentication=None, verbose=True)
+2023-03-21 21:06:37,457:INFO:Initializing load_model()
+2023-03-21 21:06:37,457:INFO:load_model(model_name=C:\Users\valclemir\Documents\api-covid\app\model/model-covid-uti, platform=None, authentication=None, verbose=True)
+2023-03-21 21:06:44,962:INFO:Initializing load_model()
+2023-03-21 21:06:44,962:INFO:load_model(model_name=C:\Users\valclemir\Documents\api-covid\app\model/model-covid-obito, platform=None, authentication=None, verbose=True)
