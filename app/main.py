@@ -32,7 +32,13 @@ class ParamsModelObito(BaseModel):
 
 def load_model(model_name):
 
-    model = classification.load_model(model_name="model/" + model_name) 
+
+    dir_atual = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(dir_atual, 'model/')
+
+    print(path)
+
+    model = classification.load_model(model_name=path + model_name) 
     return model 
 
 
